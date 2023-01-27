@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CoolLabel_Example' do
+  pod 'CoolLabel', :path => '../'
+
+  target 'CoolLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
