@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		17EFE2B9298381FB0009D185 /* CoolLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EFE2B8298381FB0009D185 /* CoolLabel.swift */; };
 		2D32A57D02A457022AA13D8EBE636D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3C342F10B572FBAFBF84A27EC4BBA801 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD4E1C26B318185F5CC5967777D3BA /* ReplaceMe.swift */; };
 		57F0702DDD1BC6A3280F23223E6BDE45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5E6AEECFB480931724025984023D981B /* Pods-CoolLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D73B42DEAC1F5C48850E9B04DAA3C295 /* Pods-CoolLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D34CD5B5113232E1B16D614996712EC /* CoolLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58702E71755F3442A6389337D7D80EFD /* CoolLabel-dummy.m */; };
@@ -68,7 +67,6 @@
 		D5E17072314DE52E7E7DF21E33024964 /* Pods-CoolLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		D73B42DEAC1F5C48850E9B04DAA3C295 /* Pods-CoolLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoolLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D7C5DE9664D5631EC5781FD9908F5F29 /* CoolLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoolLabel; path = CoolLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3AD4E1C26B318185F5CC5967777D3BA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CoolLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F148C8C7099E10F0FFB2C60DDAF5F05A /* CoolLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolLabel-umbrella.h"; sourceTree = "<group>"; };
 		F2DCB16AA284BD76511DE305BCCFDEA1 /* Pods-CoolLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		FD83785D7E8D7E005A3D3D80094D936E /* CoolLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoolLabel-Info.plist"; sourceTree = "<group>"; };
@@ -105,6 +103,7 @@
 		0DB80030CE18B533C64BD096048467B9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
+				17EFE2B8298381FB0009D185 /* CoolLabel.swift */,
 				B898589EE4EE2664F1C9DF45BC9456BD /* CoolLabel */,
 			);
 			name = "Development Pods";
@@ -198,10 +197,8 @@
 		B898589EE4EE2664F1C9DF45BC9456BD /* CoolLabel */ = {
 			isa = PBXGroup;
 			children = (
-				E3AD4E1C26B318185F5CC5967777D3BA /* ReplaceMe.swift */,
 				84C4B93794B87FA8B24AA4355F6A6D5A /* Pod */,
 				55CBE0AC86555A4CC18398185E86DEEE /* Support Files */,
-				17EFE2B8298381FB0009D185 /* CoolLabel.swift */,
 			);
 			name = CoolLabel;
 			path = ../..;
@@ -388,7 +385,6 @@
 			files = (
 				6D34CD5B5113232E1B16D614996712EC /* CoolLabel-dummy.m in Sources */,
 				17EFE2B9298381FB0009D185 /* CoolLabel.swift in Sources */,
-				3C342F10B572FBAFBF84A27EC4BBA801 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
