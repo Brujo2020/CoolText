@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17EFE2B9298381FB0009D185 /* CoolLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EFE2B8298381FB0009D185 /* CoolLabel.swift */; };
 		2D32A57D02A457022AA13D8EBE636D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3C342F10B572FBAFBF84A27EC4BBA801 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD4E1C26B318185F5CC5967777D3BA /* ReplaceMe.swift */; };
 		57F0702DDD1BC6A3280F23223E6BDE45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		15CA1147B3C64E56EA30F975AD159000 /* Pods-CoolLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		16E11625000977291D2E5BB4B6F62CD3 /* CoolLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoolLabel.modulemap; sourceTree = "<group>"; };
+		17EFE2B8298381FB0009D185 /* CoolLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolLabel.swift; sourceTree = "<group>"; };
 		2F530974F331CDE6CBEEB9BAFFBFA4AB /* Pods-CoolLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolLabel_Example-Info.plist"; sourceTree = "<group>"; };
 		369A759654DEC1FFC3B35D267B421983 /* Pods-CoolLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3731482D1D7B0219D1E0DBAF81376B1A /* CoolLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoolLabel.release.xcconfig; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				E3AD4E1C26B318185F5CC5967777D3BA /* ReplaceMe.swift */,
 				84C4B93794B87FA8B24AA4355F6A6D5A /* Pod */,
 				55CBE0AC86555A4CC18398185E86DEEE /* Support Files */,
+				17EFE2B8298381FB0009D185 /* CoolLabel.swift */,
 			);
 			name = CoolLabel;
 			path = ../..;
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D34CD5B5113232E1B16D614996712EC /* CoolLabel-dummy.m in Sources */,
+				17EFE2B9298381FB0009D185 /* CoolLabel.swift in Sources */,
 				3C342F10B572FBAFBF84A27EC4BBA801 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
