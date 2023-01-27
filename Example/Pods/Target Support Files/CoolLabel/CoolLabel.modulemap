@@ -1,0 +1,6 @@
+framework module CoolLabel {
+  umbrella header "CoolLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

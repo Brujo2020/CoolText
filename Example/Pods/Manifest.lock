@@ -1,0 +1,16 @@
+PODS:
+  - CoolLabel (0.1.0)
+
+DEPENDENCIES:
+  - CoolLabel (from `../`)
+
+EXTERNAL SOURCES:
+  CoolLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoolLabel: 48a89790f6e83eacc3271fbfa2d38059722fce97
+
+PODFILE CHECKSUM: ab18aa9a7b07ca1be4bdb6f321416b71510fe978
+
+COCOAPODS: 1.11.3

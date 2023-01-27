@@ -1,0 +1,6 @@
+framework module Pods_CoolLabel_Example {
+  umbrella header "Pods-CoolLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

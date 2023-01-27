@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CoolLabel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CoolLabel.'
+  s.summary          = 'A subclass on UILabel that provides a blink'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,25 +17,22 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.'
 
-  s.homepage         = 'https://github.com/2019537/CoolLabel'
+  s.homepage         = 'https://github.com/Brujo2020/CoolText'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '2019537' => 'marioalej@gmail.com' }
-  s.source           = { :git => 'https://github.com/2019537/CoolLabel.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Brujo2020/CoolText.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '4.1'
   s.source_files = 'CoolLabel/Classes/**/*'
   
   # s.resource_bundles = {
   #   'CoolLabel' => ['CoolLabel/Assets/*.png']
   # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

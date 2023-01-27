@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D32A57D02A457022AA13D8EBE636D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3C342F10B572FBAFBF84A27EC4BBA801 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD4E1C26B318185F5CC5967777D3BA /* ReplaceMe.swift */; };
+		57F0702DDD1BC6A3280F23223E6BDE45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5E6AEECFB480931724025984023D981B /* Pods-CoolLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D73B42DEAC1F5C48850E9B04DAA3C295 /* Pods-CoolLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D34CD5B5113232E1B16D614996712EC /* CoolLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58702E71755F3442A6389337D7D80EFD /* CoolLabel-dummy.m */; };
+		6D772682442B46A4ECA24D0C9597532D /* Pods-CoolLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E17072314DE52E7E7DF21E33024964 /* Pods-CoolLabel_Tests-dummy.m */; };
+		9BC0F90725B20E4C84B38E4FA1A9939F /* Pods-CoolLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DCB16AA284BD76511DE305BCCFDEA1 /* Pods-CoolLabel_Example-dummy.m */; };
+		C6107A106243C0057DD3A3247AE1BB93 /* Pods-CoolLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4FF9389CC7CAD2DF1A4419EFA7D353 /* Pods-CoolLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA86F8518F296EAF0906D92CE2F73F4F /* CoolLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F148C8C7099E10F0FFB2C60DDAF5F05A /* CoolLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE30B36E6574CFE8ACA453C9B8831BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57438CAA085AA4E2B6DD8F0AACCECEAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3CC0990D9D849A016FE7D47208F61B3;
+			remoteInfo = CoolLabel;
+		};
+		BD5DE552C02AAF8A0E5ED5E482E7F271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140E463E159BB045EC32C7A5F76311FF;
+			remoteInfo = "Pods-CoolLabel_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15CA1147B3C64E56EA30F975AD159000 /* Pods-CoolLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		16E11625000977291D2E5BB4B6F62CD3 /* CoolLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoolLabel.modulemap; sourceTree = "<group>"; };
+		2F530974F331CDE6CBEEB9BAFFBFA4AB /* Pods-CoolLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolLabel_Example-Info.plist"; sourceTree = "<group>"; };
+		369A759654DEC1FFC3B35D267B421983 /* Pods-CoolLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3731482D1D7B0219D1E0DBAF81376B1A /* CoolLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoolLabel.release.xcconfig; sourceTree = "<group>"; };
+		375D357A971EF2EB0101D42DDB92E4B1 /* Pods-CoolLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DE49770EF91C0DA8AB617E2774F05A0 /* Pods-CoolLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		556A09D34D491C5C2B832E2775BB097E /* Pods-CoolLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		58702E71755F3442A6389337D7D80EFD /* CoolLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoolLabel-dummy.m"; sourceTree = "<group>"; };
+		5B40C57C065943FA126C016AF56331BF /* Pods-CoolLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6726322756F2091579C0F9521028D673 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		909B2E02963FAC58D47AA938B9E99F40 /* Pods-CoolLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoolLabel_Example"; path = Pods_CoolLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C5B70B912D6519F2DADE364F7BD6B1 /* Pods-CoolLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoolLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		9B03534E48788735CF7255ADA927392C /* CoolLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CoolLabel.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9D88F1E3E76EF2A780BF3C3FB3A1ECC5 /* CoolLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolLabel-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A521C9D2816A435286A2AE32D39CB09E /* Pods-CoolLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoolLabel_Tests"; path = Pods_CoolLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD12017508588B56D918DE381DEA56B9 /* Pods-CoolLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AF4FF9389CC7CAD2DF1A4419EFA7D353 /* Pods-CoolLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoolLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		B28A2E253D6FD0404BB149C2BEB13373 /* Pods-CoolLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B48C548561B3B1F44F78145447B8BD10 /* CoolLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoolLabel.debug.xcconfig; sourceTree = "<group>"; };
+		CB6073591DF66547C8AA79F09C0F7698 /* Pods-CoolLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolLabel_Tests-Info.plist"; sourceTree = "<group>"; };
+		CDDEE980C4D57D28992D2975719C31E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D056E2175517BE4E5695E0D7A04D856F /* Pods-CoolLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D55F818EB9FECB4D7779BFB5031C8873 /* Pods-CoolLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoolLabel_Example.modulemap"; sourceTree = "<group>"; };
+		D5E17072314DE52E7E7DF21E33024964 /* Pods-CoolLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		D73B42DEAC1F5C48850E9B04DAA3C295 /* Pods-CoolLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoolLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D7C5DE9664D5631EC5781FD9908F5F29 /* CoolLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoolLabel; path = CoolLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AD4E1C26B318185F5CC5967777D3BA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CoolLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F148C8C7099E10F0FFB2C60DDAF5F05A /* CoolLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolLabel-umbrella.h"; sourceTree = "<group>"; };
+		F2DCB16AA284BD76511DE305BCCFDEA1 /* Pods-CoolLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		FD83785D7E8D7E005A3D3D80094D936E /* CoolLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoolLabel-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FBEA16F5CB10381988B99AE04B0EF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE30B36E6574CFE8ACA453C9B8831BF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B665F1FA713E17328398D5CC749139FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D32A57D02A457022AA13D8EBE636D32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3B972036C45C88DD26A0905CCAD200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F0702DDD1BC6A3280F23223E6BDE45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB80030CE18B533C64BD096048467B9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B898589EE4EE2664F1C9DF45BC9456BD /* CoolLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		491337C92B198A8B3E80813283018DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7C5DE9664D5631EC5781FD9908F5F29 /* CoolLabel */,
+				909B2E02963FAC58D47AA938B9E99F40 /* Pods-CoolLabel_Example */,
+				A521C9D2816A435286A2AE32D39CB09E /* Pods-CoolLabel_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550A99DA656CF91951238329BA606312 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA8D581537A1CECB846DAB6F107EFA11 /* Pods-CoolLabel_Example */,
+				8E46C57A57AB08A70B9BEF740DD51E38 /* Pods-CoolLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55CBE0AC86555A4CC18398185E86DEEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16E11625000977291D2E5BB4B6F62CD3 /* CoolLabel.modulemap */,
+				58702E71755F3442A6389337D7D80EFD /* CoolLabel-dummy.m */,
+				FD83785D7E8D7E005A3D3D80094D936E /* CoolLabel-Info.plist */,
+				9D88F1E3E76EF2A780BF3C3FB3A1ECC5 /* CoolLabel-prefix.pch */,
+				F148C8C7099E10F0FFB2C60DDAF5F05A /* CoolLabel-umbrella.h */,
+				B48C548561B3B1F44F78145447B8BD10 /* CoolLabel.debug.xcconfig */,
+				3731482D1D7B0219D1E0DBAF81376B1A /* CoolLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CoolLabel";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		84C4B93794B87FA8B24AA4355F6A6D5A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9B03534E48788735CF7255ADA927392C /* CoolLabel.podspec */,
+				6726322756F2091579C0F9521028D673 /* LICENSE */,
+				CDDEE980C4D57D28992D2975719C31E5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8E46C57A57AB08A70B9BEF740DD51E38 /* Pods-CoolLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				95C5B70B912D6519F2DADE364F7BD6B1 /* Pods-CoolLabel_Tests.modulemap */,
+				375D357A971EF2EB0101D42DDB92E4B1 /* Pods-CoolLabel_Tests-acknowledgements.markdown */,
+				B28A2E253D6FD0404BB149C2BEB13373 /* Pods-CoolLabel_Tests-acknowledgements.plist */,
+				D5E17072314DE52E7E7DF21E33024964 /* Pods-CoolLabel_Tests-dummy.m */,
+				CB6073591DF66547C8AA79F09C0F7698 /* Pods-CoolLabel_Tests-Info.plist */,
+				D73B42DEAC1F5C48850E9B04DAA3C295 /* Pods-CoolLabel_Tests-umbrella.h */,
+				369A759654DEC1FFC3B35D267B421983 /* Pods-CoolLabel_Tests.debug.xcconfig */,
+				15CA1147B3C64E56EA30F975AD159000 /* Pods-CoolLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-CoolLabel_Tests";
+			path = "Target Support Files/Pods-CoolLabel_Tests";
+			sourceTree = "<group>";
+		};
+		AA8D581537A1CECB846DAB6F107EFA11 /* Pods-CoolLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D55F818EB9FECB4D7779BFB5031C8873 /* Pods-CoolLabel_Example.modulemap */,
+				3DE49770EF91C0DA8AB617E2774F05A0 /* Pods-CoolLabel_Example-acknowledgements.markdown */,
+				D056E2175517BE4E5695E0D7A04D856F /* Pods-CoolLabel_Example-acknowledgements.plist */,
+				F2DCB16AA284BD76511DE305BCCFDEA1 /* Pods-CoolLabel_Example-dummy.m */,
+				AD12017508588B56D918DE381DEA56B9 /* Pods-CoolLabel_Example-frameworks.sh */,
+				2F530974F331CDE6CBEEB9BAFFBFA4AB /* Pods-CoolLabel_Example-Info.plist */,
+				AF4FF9389CC7CAD2DF1A4419EFA7D353 /* Pods-CoolLabel_Example-umbrella.h */,
+				556A09D34D491C5C2B832E2775BB097E /* Pods-CoolLabel_Example.debug.xcconfig */,
+				5B40C57C065943FA126C016AF56331BF /* Pods-CoolLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-CoolLabel_Example";
+			path = "Target Support Files/Pods-CoolLabel_Example";
+			sourceTree = "<group>";
+		};
+		B898589EE4EE2664F1C9DF45BC9456BD /* CoolLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E3AD4E1C26B318185F5CC5967777D3BA /* ReplaceMe.swift */,
+				84C4B93794B87FA8B24AA4355F6A6D5A /* Pod */,
+				55CBE0AC86555A4CC18398185E86DEEE /* Support Files */,
+			);
+			name = CoolLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0DB80030CE18B533C64BD096048467B9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				491337C92B198A8B3E80813283018DC8 /* Products */,
+				550A99DA656CF91951238329BA606312 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		002619786D463E936ABBF2F9666491ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6107A106243C0057DD3A3247AE1BB93 /* Pods-CoolLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1882DF3A2157323C505FC0ADB3AB1A3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6AEECFB480931724025984023D981B /* Pods-CoolLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E18FAE470C1800A3144D8D0BE872BBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA86F8518F296EAF0906D92CE2F73F4F /* CoolLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		140E463E159BB045EC32C7A5F76311FF /* Pods-CoolLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73709D68F9DC67F5C0630C26C904C61D /* Build configuration list for PBXNativeTarget "Pods-CoolLabel_Example" */;
+			buildPhases = (
+				002619786D463E936ABBF2F9666491ED /* Headers */,
+				82FB8CF30717061427A21530C4F1D0B8 /* Sources */,
+				B665F1FA713E17328398D5CC749139FD /* Frameworks */,
+				3F8650B50A80F29C6C242AA62BB18040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CBC7B2E7D83427666802F48AB4DA3E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-CoolLabel_Example";
+			productName = Pods_CoolLabel_Example;
+			productReference = 909B2E02963FAC58D47AA938B9E99F40 /* Pods-CoolLabel_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3CC0990D9D849A016FE7D47208F61B3 /* CoolLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FCAD3BF9FB93EF6C0CB921CE4AADDF /* Build configuration list for PBXNativeTarget "CoolLabel" */;
+			buildPhases = (
+				7E18FAE470C1800A3144D8D0BE872BBE /* Headers */,
+				F1BB4A016C10AAACD29D0531A3D5A041 /* Sources */,
+				CD3B972036C45C88DD26A0905CCAD200 /* Frameworks */,
+				263034991D12516B10779B8D2643858A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolLabel;
+			productName = CoolLabel;
+			productReference = D7C5DE9664D5631EC5781FD9908F5F29 /* CoolLabel */;
+			productType = "com.apple.product-type.framework";
+		};
+		EED6CB6C324215B6D8A6D2A33B715268 /* Pods-CoolLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78234EDC7EEC6F3B6BC404B4BCBCE07A /* Build configuration list for PBXNativeTarget "Pods-CoolLabel_Tests" */;
+			buildPhases = (
+				1882DF3A2157323C505FC0ADB3AB1A3E /* Headers */,
+				66D318B469233EF96820D6167812DF84 /* Sources */,
+				8FBEA16F5CB10381988B99AE04B0EF74 /* Frameworks */,
+				E5FA280ABD32615765FE0F7889C6F014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BECA0FEE8F5DD384E721365EC9351E58 /* PBXTargetDependency */,
+			);
+			name = "Pods-CoolLabel_Tests";
+			productName = Pods_CoolLabel_Tests;
+			productReference = A521C9D2816A435286A2AE32D39CB09E /* Pods-CoolLabel_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 491337C92B198A8B3E80813283018DC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3CC0990D9D849A016FE7D47208F61B3 /* CoolLabel */,
+				140E463E159BB045EC32C7A5F76311FF /* Pods-CoolLabel_Example */,
+				EED6CB6C324215B6D8A6D2A33B715268 /* Pods-CoolLabel_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		263034991D12516B10779B8D2643858A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8650B50A80F29C6C242AA62BB18040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FA280ABD32615765FE0F7889C6F014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D318B469233EF96820D6167812DF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D772682442B46A4ECA24D0C9597532D /* Pods-CoolLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FB8CF30717061427A21530C4F1D0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC0F90725B20E4C84B38E4FA1A9939F /* Pods-CoolLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BB4A016C10AAACD29D0531A3D5A041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D34CD5B5113232E1B16D614996712EC /* CoolLabel-dummy.m in Sources */,
+				3C342F10B572FBAFBF84A27EC4BBA801 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CBC7B2E7D83427666802F48AB4DA3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoolLabel;
+			target = C3CC0990D9D849A016FE7D47208F61B3 /* CoolLabel */;
+			targetProxy = 57438CAA085AA4E2B6DD8F0AACCECEAA /* PBXContainerItemProxy */;
+		};
+		BECA0FEE8F5DD384E721365EC9351E58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CoolLabel_Example";
+			target = 140E463E159BB045EC32C7A5F76311FF /* Pods-CoolLabel_Example */;
+			targetProxy = BD5DE552C02AAF8A0E5ED5E482E7F271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		088C39B511396411C8D634D469CC6D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CA1147B3C64E56EA30F975AD159000 /* Pods-CoolLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoolLabel_Tests/Pods-CoolLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoolLabel_Tests/Pods-CoolLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		091966C5C270A648065109938CB58E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48C548561B3B1F44F78145447B8BD10 /* CoolLabel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoolLabel/CoolLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoolLabel/CoolLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoolLabel/CoolLabel.modulemap";
+				PRODUCT_MODULE_NAME = CoolLabel;
+				PRODUCT_NAME = CoolLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3253C8136A487F0FCD87B11D76C5B772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B40C57C065943FA126C016AF56331BF /* Pods-CoolLabel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoolLabel_Example/Pods-CoolLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoolLabel_Example/Pods-CoolLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74A322A8694915D8A1D1C428E39D9356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556A09D34D491C5C2B832E2775BB097E /* Pods-CoolLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoolLabel_Example/Pods-CoolLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoolLabel_Example/Pods-CoolLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3BD8EB0998A967CE2CDC335A701B365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3731482D1D7B0219D1E0DBAF81376B1A /* CoolLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoolLabel/CoolLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoolLabel/CoolLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoolLabel/CoolLabel.modulemap";
+				PRODUCT_MODULE_NAME = CoolLabel;
+				PRODUCT_NAME = CoolLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1E583D2A403C3FDC4DC0A2EC9B5EB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369A759654DEC1FFC3B35D267B421983 /* Pods-CoolLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoolLabel_Tests/Pods-CoolLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoolLabel_Tests/Pods-CoolLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62FCAD3BF9FB93EF6C0CB921CE4AADDF /* Build configuration list for PBXNativeTarget "CoolLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091966C5C270A648065109938CB58E25 /* Debug */,
+				A3BD8EB0998A967CE2CDC335A701B365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73709D68F9DC67F5C0630C26C904C61D /* Build configuration list for PBXNativeTarget "Pods-CoolLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A322A8694915D8A1D1C428E39D9356 /* Debug */,
+				3253C8136A487F0FCD87B11D76C5B772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78234EDC7EEC6F3B6BC404B4BCBCE07A /* Build configuration list for PBXNativeTarget "Pods-CoolLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E583D2A403C3FDC4DC0A2EC9B5EB89 /* Debug */,
+				088C39B511396411C8D634D469CC6D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

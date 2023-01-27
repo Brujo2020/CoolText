@@ -1,0 +1,22 @@
+{
+  "name": "CoolLabel",
+  "version": "0.1.0",
+  "summary": "A short description of CoolLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2019537/CoolLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2019537": "marioalej@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/2019537/CoolLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CoolLabel/Classes/**/*"
+}
