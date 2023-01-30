@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17EFE2B9298381FB0009D185 /* CoolLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EFE2B8298381FB0009D185 /* CoolLabel.swift */; };
 		2D32A57D02A457022AA13D8EBE636D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		430C911DC84722AD9F8814F373C4A197 /* CoolLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052BF2FD11929F86EB0ED1876E2D5AF6 /* CoolLabel.swift */; };
 		57F0702DDD1BC6A3280F23223E6BDE45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5E6AEECFB480931724025984023D981B /* Pods-CoolLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D73B42DEAC1F5C48850E9B04DAA3C295 /* Pods-CoolLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D34CD5B5113232E1B16D614996712EC /* CoolLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58702E71755F3442A6389337D7D80EFD /* CoolLabel-dummy.m */; };
 		6D772682442B46A4ECA24D0C9597532D /* Pods-CoolLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E17072314DE52E7E7DF21E33024964 /* Pods-CoolLabel_Tests-dummy.m */; };
 		9BC0F90725B20E4C84B38E4FA1A9939F /* Pods-CoolLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DCB16AA284BD76511DE305BCCFDEA1 /* Pods-CoolLabel_Example-dummy.m */; };
+		AD34F907F9296FE938F34931FB26950B /* CoolLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB3E83D455A9A36B81D171BAEBA9F46 /* CoolLabel-dummy.m */; };
 		C6107A106243C0057DD3A3247AE1BB93 /* Pods-CoolLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4FF9389CC7CAD2DF1A4419EFA7D353 /* Pods-CoolLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA86F8518F296EAF0906D92CE2F73F4F /* CoolLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F148C8C7099E10F0FFB2C60DDAF5F05A /* CoolLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA86F8518F296EAF0906D92CE2F73F4F /* CoolLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA6DE7941253228559CBD4B4FAC12DD /* CoolLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE30B36E6574CFE8ACA453C9B8831BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,39 +37,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		052BF2FD11929F86EB0ED1876E2D5AF6 /* CoolLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoolLabel.swift; path = CoolLabel/Classes/CoolLabel.swift; sourceTree = "<group>"; };
 		15CA1147B3C64E56EA30F975AD159000 /* Pods-CoolLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		16E11625000977291D2E5BB4B6F62CD3 /* CoolLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoolLabel.modulemap; sourceTree = "<group>"; };
-		17EFE2B8298381FB0009D185 /* CoolLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolLabel.swift; sourceTree = "<group>"; };
+		1AB3E83D455A9A36B81D171BAEBA9F46 /* CoolLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoolLabel-dummy.m"; sourceTree = "<group>"; };
 		2F530974F331CDE6CBEEB9BAFFBFA4AB /* Pods-CoolLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolLabel_Example-Info.plist"; sourceTree = "<group>"; };
 		369A759654DEC1FFC3B35D267B421983 /* Pods-CoolLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3731482D1D7B0219D1E0DBAF81376B1A /* CoolLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoolLabel.release.xcconfig; sourceTree = "<group>"; };
 		375D357A971EF2EB0101D42DDB92E4B1 /* Pods-CoolLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DE49770EF91C0DA8AB617E2774F05A0 /* Pods-CoolLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		502155548FA1A8C9A18F685C28F17747 /* CoolLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CoolLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		556A09D34D491C5C2B832E2775BB097E /* Pods-CoolLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		58702E71755F3442A6389337D7D80EFD /* CoolLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoolLabel-dummy.m"; sourceTree = "<group>"; };
+		5A51EFA61BA9A87C549ADF432D3FCBA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5B40C57C065943FA126C016AF56331BF /* Pods-CoolLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6726322756F2091579C0F9521028D673 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6710BC548725269EA705116FDDEE86E3 /* CoolLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolLabel-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82FB8DB505A4744F9CC3391F88BF67E9 /* CoolLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoolLabel-Info.plist"; sourceTree = "<group>"; };
 		909B2E02963FAC58D47AA938B9E99F40 /* Pods-CoolLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoolLabel_Example"; path = Pods_CoolLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9583A1A3B485148FEB0EE0A9B7AB7360 /* CoolLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoolLabel.release.xcconfig; sourceTree = "<group>"; };
 		95C5B70B912D6519F2DADE364F7BD6B1 /* Pods-CoolLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoolLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		9B03534E48788735CF7255ADA927392C /* CoolLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CoolLabel.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		9D88F1E3E76EF2A780BF3C3FB3A1ECC5 /* CoolLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolLabel-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BA6DE7941253228559CBD4B4FAC12DD /* CoolLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolLabel-umbrella.h"; sourceTree = "<group>"; };
+		9BE5F289EDAE333E32E6064F234D668A /* CoolLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoolLabel.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A521C9D2816A435286A2AE32D39CB09E /* Pods-CoolLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoolLabel_Tests"; path = Pods_CoolLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD12017508588B56D918DE381DEA56B9 /* Pods-CoolLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AEF5ADF2934A1CFB3BCA556A7B0A8386 /* CoolLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoolLabel.modulemap; sourceTree = "<group>"; };
 		AF4FF9389CC7CAD2DF1A4419EFA7D353 /* Pods-CoolLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoolLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		B28A2E253D6FD0404BB149C2BEB13373 /* Pods-CoolLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B48C548561B3B1F44F78145447B8BD10 /* CoolLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoolLabel.debug.xcconfig; sourceTree = "<group>"; };
 		CB6073591DF66547C8AA79F09C0F7698 /* Pods-CoolLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolLabel_Tests-Info.plist"; sourceTree = "<group>"; };
-		CDDEE980C4D57D28992D2975719C31E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D056E2175517BE4E5695E0D7A04D856F /* Pods-CoolLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D55F818EB9FECB4D7779BFB5031C8873 /* Pods-CoolLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoolLabel_Example.modulemap"; sourceTree = "<group>"; };
 		D5E17072314DE52E7E7DF21E33024964 /* Pods-CoolLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		D73B42DEAC1F5C48850E9B04DAA3C295 /* Pods-CoolLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoolLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D7C5DE9664D5631EC5781FD9908F5F29 /* CoolLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoolLabel; path = CoolLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F148C8C7099E10F0FFB2C60DDAF5F05A /* CoolLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoolLabel-umbrella.h"; sourceTree = "<group>"; };
 		F2DCB16AA284BD76511DE305BCCFDEA1 /* Pods-CoolLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		FD83785D7E8D7E005A3D3D80094D936E /* CoolLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoolLabel-Info.plist"; sourceTree = "<group>"; };
+		F3229595894C8C64063BFE59CD788A94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,7 @@
 		0DB80030CE18B533C64BD096048467B9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				17EFE2B8298381FB0009D185 /* CoolLabel.swift */,
-				B898589EE4EE2664F1C9DF45BC9456BD /* CoolLabel */,
+				79D297851563C85AF66CA03EC9BBDB5D /* CoolLabel */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -128,21 +127,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		55CBE0AC86555A4CC18398185E86DEEE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				16E11625000977291D2E5BB4B6F62CD3 /* CoolLabel.modulemap */,
-				58702E71755F3442A6389337D7D80EFD /* CoolLabel-dummy.m */,
-				FD83785D7E8D7E005A3D3D80094D936E /* CoolLabel-Info.plist */,
-				9D88F1E3E76EF2A780BF3C3FB3A1ECC5 /* CoolLabel-prefix.pch */,
-				F148C8C7099E10F0FFB2C60DDAF5F05A /* CoolLabel-umbrella.h */,
-				B48C548561B3B1F44F78145447B8BD10 /* CoolLabel.debug.xcconfig */,
-				3731482D1D7B0219D1E0DBAF81376B1A /* CoolLabel.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CoolLabel";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,14 +135,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		84C4B93794B87FA8B24AA4355F6A6D5A /* Pod */ = {
+		79D297851563C85AF66CA03EC9BBDB5D /* CoolLabel */ = {
 			isa = PBXGroup;
 			children = (
-				9B03534E48788735CF7255ADA927392C /* CoolLabel.podspec */,
-				6726322756F2091579C0F9521028D673 /* LICENSE */,
-				CDDEE980C4D57D28992D2975719C31E5 /* README.md */,
+				052BF2FD11929F86EB0ED1876E2D5AF6 /* CoolLabel.swift */,
+				F24B591895B6EC900A0F4259B1C24CD9 /* Pod */,
+				F3E4EAA152CD5976E75F31402AC0117B /* Support Files */,
 			);
-			name = Pod;
+			name = CoolLabel;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		8E46C57A57AB08A70B9BEF740DD51E38 /* Pods-CoolLabel_Tests */ = {
@@ -194,16 +179,6 @@
 			path = "Target Support Files/Pods-CoolLabel_Example";
 			sourceTree = "<group>";
 		};
-		B898589EE4EE2664F1C9DF45BC9456BD /* CoolLabel */ = {
-			isa = PBXGroup;
-			children = (
-				84C4B93794B87FA8B24AA4355F6A6D5A /* Pod */,
-				55CBE0AC86555A4CC18398185E86DEEE /* Support Files */,
-			);
-			name = CoolLabel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +196,31 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F24B591895B6EC900A0F4259B1C24CD9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				502155548FA1A8C9A18F685C28F17747 /* CoolLabel.podspec */,
+				5A51EFA61BA9A87C549ADF432D3FCBA4 /* LICENSE */,
+				F3229595894C8C64063BFE59CD788A94 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F3E4EAA152CD5976E75F31402AC0117B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEF5ADF2934A1CFB3BCA556A7B0A8386 /* CoolLabel.modulemap */,
+				1AB3E83D455A9A36B81D171BAEBA9F46 /* CoolLabel-dummy.m */,
+				82FB8DB505A4744F9CC3391F88BF67E9 /* CoolLabel-Info.plist */,
+				6710BC548725269EA705116FDDEE86E3 /* CoolLabel-prefix.pch */,
+				9BA6DE7941253228559CBD4B4FAC12DD /* CoolLabel-umbrella.h */,
+				9BE5F289EDAE333E32E6064F234D668A /* CoolLabel.debug.xcconfig */,
+				9583A1A3B485148FEB0EE0A9B7AB7360 /* CoolLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CoolLabel";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +277,7 @@
 			buildConfigurationList = 62FCAD3BF9FB93EF6C0CB921CE4AADDF /* Build configuration list for PBXNativeTarget "CoolLabel" */;
 			buildPhases = (
 				7E18FAE470C1800A3144D8D0BE872BBE /* Headers */,
-				F1BB4A016C10AAACD29D0531A3D5A041 /* Sources */,
+				C5C8239BB3CA16DE09BA659CA4D5037C /* Sources */,
 				CD3B972036C45C88DD26A0905CCAD200 /* Frameworks */,
 				263034991D12516B10779B8D2643858A /* Resources */,
 			);
@@ -379,12 +379,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1BB4A016C10AAACD29D0531A3D5A041 /* Sources */ = {
+		C5C8239BB3CA16DE09BA659CA4D5037C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D34CD5B5113232E1B16D614996712EC /* CoolLabel-dummy.m in Sources */,
-				17EFE2B9298381FB0009D185 /* CoolLabel.swift in Sources */,
+				430C911DC84722AD9F8814F373C4A197 /* CoolLabel.swift in Sources */,
+				AD34F907F9296FE938F34931FB26950B /* CoolLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,9 +440,9 @@
 			};
 			name = Release;
 		};
-		091966C5C270A648065109938CB58E25 /* Debug */ = {
+		3085A5241BF8BC1F5E61FFE392DDE1D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B48C548561B3B1F44F78145447B8BD10 /* CoolLabel.debug.xcconfig */;
+			baseConfigurationReference = 9BE5F289EDAE333E32E6064F234D668A /* CoolLabel.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -456,7 +456,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CoolLabel/CoolLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CoolLabel/CoolLabel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CoolLabel/CoolLabel.modulemap";
 				PRODUCT_MODULE_NAME = CoolLabel;
@@ -464,7 +464,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -593,41 +593,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		A3BD8EB0998A967CE2CDC335A701B365 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3731482D1D7B0219D1E0DBAF81376B1A /* CoolLabel.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CoolLabel/CoolLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoolLabel/CoolLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CoolLabel/CoolLabel.modulemap";
-				PRODUCT_MODULE_NAME = CoolLabel;
-				PRODUCT_NAME = CoolLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -663,6 +632,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		C2341481EF45294FD4BFD48C4EFFA105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9583A1A3B485148FEB0EE0A9B7AB7360 /* CoolLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoolLabel/CoolLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoolLabel/CoolLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoolLabel/CoolLabel.modulemap";
+				PRODUCT_MODULE_NAME = CoolLabel;
+				PRODUCT_NAME = CoolLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -745,8 +746,8 @@
 		62FCAD3BF9FB93EF6C0CB921CE4AADDF /* Build configuration list for PBXNativeTarget "CoolLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				091966C5C270A648065109938CB58E25 /* Debug */,
-				A3BD8EB0998A967CE2CDC335A701B365 /* Release */,
+				3085A5241BF8BC1F5E61FFE392DDE1D3 /* Debug */,
+				C2341481EF45294FD4BFD48C4EFFA105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
